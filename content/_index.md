@@ -1,6 +1,5 @@
 ---
 date: '2025-01-22T13:42:16Z'
-draft: true
 title: 'Home'
 ---
 # Welcome! 👋
