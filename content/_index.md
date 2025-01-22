@@ -1,8 +1,10 @@
 ---
-date: '2025-01-22T13:42:16Z'
-title: 'Home'
+title: "Home"
 ---
+
 # Welcome! 👋
+
+{{< figure src="images/cropped-nlisn-logo-t.png" >}}
 
 We are a peer support network for neurodivergent staff in the Library, Information and Knowledge sector in the UK and Ireland.
 

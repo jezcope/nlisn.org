@@ -7,18 +7,14 @@
 [build.environment]
   HUGO_VERSION = "v0.140.2"
 
-  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
-  ## Not needed for static site generators.
-  #[[redirects]]
-  #  from = "/*"
-  #  to = "/index.html"
-  #  status = 200
+[[redirects]]
+from = "/aims-objectives"
+to = "/about"
 
-  ## (optional) Settings for Netlify Dev
-  ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
-  #[dev]
-  #  command = "yarn start" # Command to start your dev server
-  #  port = 3000 # Port that the dev server will be listening on
-  #  publish = "dist" # Folder with the static content for _redirect file
+[[redirects]]
+from = "/blog-posts"
+to = "/blog"
 
-  ## more info on configuring this file: https://ntl.fyi/file-based-build-config
+[[redirects]]
+from = "/resources-2"
+to = "/resources"

@@ -1,9 +1,36 @@
-baseURL: https://nlisn.org/
+baseURL: https://nlisn.netlify.app/
 languageCode: en-gb
 title: "NLISN: Neurodivergent Library & Information Staff Network"
 
+permalinks:
+  page:
+    blog: /:year/:month/:day/:slug
+  section:
+    blog: /blog/
+
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: Blog
+      url: /blog/
+    - name: Committee
+      url: /committee/
+    - name: Buddying Scheme
+      url: /buddying-scheme/
+    - name: Resources
+      url: /resources/
+    - name: Events
+      url: /events/
+    - name: Outputs
+      url: /outputs/
+    - name: Contact Us
+      url: /contact-us/
+
 params:
   defaultTheme: light
+  label:
+    icon: images/cropped-nlisn-logo-t.png
 
 module:
   imports:
